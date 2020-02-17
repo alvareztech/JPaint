@@ -1,4 +1,4 @@
-package com.danyalvarez.jpaint;
+package tech.alvarez.jpaint;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,10 +7,6 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
-/**
- * Clase Menu
- * @author Daniel Alvarez
- */
 public class Menu extends JMenuBar implements ActionListener {
 
     private VentanaPrincipal nucleo;
@@ -118,7 +114,7 @@ public class Menu extends JMenuBar implements ActionListener {
             nucleo.deshacer();
         }
         if (itemAcercaDe == e.getSource()) {
-            JOptionPane.showMessageDialog(nucleo, "JPaint v.1\nDaniel Alvarez\nwww.danyalvarez.com", "Acerca de JPaint", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(nucleo, "JPaint v.1\nDaniel Alvarez\nalvarez.tech", "Acerca de JPaint", JOptionPane.INFORMATION_MESSAGE);
         }
         //nucleo.repintar();
     }

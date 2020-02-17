@@ -1,12 +1,8 @@
-package com.danyalvarez.jpaint;
+package tech.alvarez.jpaint;
 
 import java.awt.Color;
 import java.awt.Shape;
 
-/**
- * Clase Figura
- * @author Daniel Alvarez (a3dany)
- */
 public class Figura {
 
     private Shape shape;

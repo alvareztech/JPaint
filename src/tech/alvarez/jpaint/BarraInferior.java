@@ -1,15 +1,10 @@
-package com.danyalvarez.jpaint;
+package tech.alvarez.jpaint;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Clase BarraInferior
- *
- * @author Daniel Alvarez (a3dany)
- */
 public class BarraInferior extends JPanel implements ActionListener {
 
     private JLabel etiquetaGrosor;

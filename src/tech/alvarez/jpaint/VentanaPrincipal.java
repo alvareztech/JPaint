@@ -1,13 +1,8 @@
-package com.danyalvarez.jpaint;
+package tech.alvarez.jpaint;
 
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Clase VentanaPrincipal
- *
- * @author Daniel Alvarez (a3dany)
- */
 public class VentanaPrincipal extends JFrame {
 
     private Menu menu;

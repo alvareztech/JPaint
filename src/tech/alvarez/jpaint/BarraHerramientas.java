@@ -1,14 +1,9 @@
-package com.danyalvarez.jpaint;
+package tech.alvarez.jpaint;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Clase BarraHerramientas
- *
- * @author Daniel Alvarez (a3dany)
- */
 public class BarraHerramientas extends JToolBar implements ActionListener {
 
     private String opcion;
@@ -18,7 +13,7 @@ public class BarraHerramientas extends JToolBar implements ActionListener {
     private JToggleButton botonElipse;
     private JToggleButton botonArco;
     private JToggleButton botonPoligono;
-    private String PATH_IMAGES = "/com/danyalvarez/jpaint/images/";
+    private String PATH_IMAGES = "/tech/alvarez/jpaint/images/";
 
     public BarraHerramientas() {
         // setRollover(true);

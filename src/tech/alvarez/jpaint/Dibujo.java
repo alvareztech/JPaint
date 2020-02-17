@@ -1,4 +1,4 @@
-package com.danyalvarez.jpaint;
+package tech.alvarez.jpaint;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,11 +8,6 @@ import java.awt.event.MouseMotionListener;
 import java.awt.geom.*;
 import java.util.ArrayList;
 
-/**
- * Clase Dibujo
- *
- * @author Daniel Alvarez (a3dany)
- */
 public class Dibujo extends JPanel implements MouseListener, MouseMotionListener {
 
     private VentanaPrincipal nucleo;
